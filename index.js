@@ -180,8 +180,6 @@ async function run() {
 
 
 
-
-console.log(uri)
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
